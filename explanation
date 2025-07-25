@@ -1,0 +1,9 @@
+Explanation:
+
+Including Libraries: The program starts by including the necessary libraries for input/output and random number generation.
+Variable Declaration: It declares numDice to hold the number of dice, rollCount to track how many times the user has rolled, and rollAgain to store the user's choice to continue.
+Seeding Random Number Generator: The srand() function seeds the random number generator with the current time, ensuring that the results are different each time the program runs.
+User Input: The program prompts the user to enter the number of dice they wish to roll. If the input is invalid (not between 1 and 6), it displays an error message and continues to the next iteration.
+Rolling the Dice: For each die, it generates a random number between 1 and 6 using rand() % 6 + 1 and displays the result.
+Roll Count: It increments the roll count and displays the total number of rolls made during the session.
+Repeat Option: Finally, it asks the user if they want to roll again, and if they respond with 'y' or 'Y', the loop continues.
